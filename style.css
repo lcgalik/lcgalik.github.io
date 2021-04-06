@@ -1,0 +1,111 @@
+.apart {
+    margin-left:100px;
+}
+.content {
+    position:relative;
+    top:55px;
+}
+#test {
+  background-color:#add8e6;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  font-size: 2vw;
+  overflow: auto;
+}
+table {
+	width:100%;
+}
+.title {
+	font-size:3vw;
+	font-style:underline;
+}
+.subtitle {
+  font-size: 1.5vw;
+}
+#quick-pic {
+	width:90%;
+}
+#navbar-thing {
+	background-color:#adbbe6;
+	border-width:3px;
+	position:fixed;
+	top:-10px;
+	width:95%;
+	z-index:1;
+}
+.running-flexes {
+   text-align:center;
+}
+.intro {
+	font-size:2vw;
+}
+.image-thing {
+	width: 100%;
+}
+.image-caption {
+	font-size: 2.5vw;
+}
+#hypixel-level:hover .hypixel-level-flex {
+  display:inline;
+}
+#bedwars-level:hover .bedwars-level-flex {
+  display:inline;
+}
+#skywars-level:hover .skywars-level-flex {
+  display:inline;
+}
+#subs:hover .subs-flex {
+  display:inline;
+}
+#peak-views:hover .peak-views-flex {
+  display:inline;
+}
+#two-mile:hover .two-mile-flex {
+  display:inline;
+}
+#one-mile:hover .one-mile-flex {
+  display:inline;
+}
+.header-link:hover {
+  color: blue;
+}
+.current-page {
+  color:red;
+}
+.current-page:hover::after {
+  content:" (You are here)";
+}
+.content {
+}
+#profile_pic {
+  display:inline-block;
+  float: left;
+  width:200px;
+  height:200px;
+}
+.social-link {
+  width:100px;
+  height:100px;
+}
+#portfolio1 {
+  height:500px;
+  width:500px;
+}
+.flex {
+  display:none;
+}
+#lego-programmer {
+    width:80%;
+}
+img#lego-programmer:hover {
+  animation: imageColors 2s forwards;
+}
+@keyframes imageColors {
+  from {
+      filter: sepia(0%);
+  }
+  
+  to {
+      filter: sepia(100%);
+  }
+}
